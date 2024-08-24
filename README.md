@@ -16,25 +16,20 @@ Cross-Platform: Works on any platform where Python and PyPDF2 are supported.
 
 **Prerequisites**
 
-Python 3.x installed on your system.
+-Python 3.x installed on your system.
 
-Required Python packages: PyPDF2.
+-Required Python packages: PyPDF2.
 
 **Installation**
 
 Clone the Repository:
 
-sh
-Copy code
-git clone url
-cd secure-pdf-merger
-
+-git clone url
 
 **Install Required Python Packages:**
 
-sh
-Copy code
-pip install PyPDF2
+-pip install PyPDF2
+
 Usage
 
 Place Your PDFs:
@@ -43,9 +38,8 @@ Put all the PDF files you want to merge into the pdf directory (or modify the pa
 
 Run the Script:
 
-sh
-Copy code
-python merge_pdfs.py
+-python merge_pdfs.py
+
 Merged Output:
 
 
@@ -53,11 +47,7 @@ The script will combine all the PDFs in the specified directory and output a sin
 
 File Structure
 
-graphql
-Copy code
 secure-pdf-merger/
-
-│
 
 ├── merge_pdfs.py           # Main script for merging PDF files
 
@@ -73,7 +63,7 @@ Output File Name: Modify the fout variable in the script to change the name of t
 
 PDF Directory: Change the path variable to specify a different directory for your PDF files.
 
-Benefits
+**Benefits**
 
 Security: By using this local script, you avoid potential data breaches that can occur when using online PDF merging tools.
 
