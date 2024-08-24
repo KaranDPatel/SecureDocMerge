@@ -45,7 +45,7 @@ Merged Output:
 
 The script will combine all the PDFs in the specified directory and output a single merged PDF file named MergePdfFiles.pdf in the script's directory.
 
-File Structure
+**File Structure**
 
 secure-pdf-merger/
 
